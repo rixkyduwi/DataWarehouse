@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg
+PUBLIC "-//W3C//DTD SVG 1.1//EN"
+       "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="53 27 696 468" width="643px" height="441px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+   <line x1="353" y1="203" x2="343" y2="203" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="205" y1="72" x2="195" y2="72" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="343" y1="203" x2="205" y2="72" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="345.5" y1="203" x2="349.03553390593" y2="206.53553390593" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="345.5" y1="203" x2="349.03553390593" y2="199.46446609407" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="200" y1="72" x2="203.53553390593" y2="75.535533905933" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="200" y1="72" x2="203.53553390593" y2="68.464466094067" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="445" y1="243" x2="455" y2="243" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="551" y1="325" x2="561" y2="325" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="455" y1="243" x2="551" y2="325" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="452.5" y1="243" x2="448.96446609407" y2="246.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="452.5" y1="243" x2="448.96446609407" y2="239.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="556" y1="325" x2="552.46446609407" y2="328.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="556" y1="325" x2="552.46446609407" y2="321.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="353" y1="223" x2="343" y2="223" style="stroke:#333;stroke-width:1;"/>
+   <line x1="205" y1="343" x2="195" y2="343" style="stroke:#333;stroke-width:1;"/>
+   <line x1="343" y1="223" x2="205" y2="343" style="stroke:#333;stroke-width:1;"/>
+   <line x1="345.5" y1="223" x2="349.03553390593" y2="226.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="345.5" y1="223" x2="349.03553390593" y2="219.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="200" y1="343" x2="203.53553390593" y2="346.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="200" y1="343" x2="203.53553390593" y2="339.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <rect width="127" height="20" x="68" y="42" style="fill:#007;stroke:black;"/>
+   <text width="127" height="20" x="73" y="56" style="fill:#fff;" font-family="Arial" font-size="16px"> dim_office</text>
+   <rect width="127" height="20" x="68" y="62" style="fill:#aea;stroke:black;"/>
+   <text width="127" height="20" x="73" y="76" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="127" height="20" x="68" y="82" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="73" y="96" style="fill:black;" font-family="Arial" font-size="16px">kodeKantor</text>
+   <rect width="127" height="20" x="68" y="102" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="73" y="116" style="fill:black;" font-family="Arial" font-size="16px">alamatKantor</text>
+   <rect width="127" height="20" x="68" y="122" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="73" y="136" style="fill:black;" font-family="Arial" font-size="16px">namaPegawai</text>
+   <rect width="127" height="20" x="68" y="142" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="73" y="156" style="fill:black;" font-family="Arial" font-size="16px">pekerjaan</text>
+   <rect width="127" height="20" x="68" y="162" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="73" y="176" style="fill:black;" font-family="Arial" font-size="16px">jumlahCustomer</text>
+   <rect width="119" height="20" x="76" y="313" style="fill:#007;stroke:black;"/>
+   <text width="119" height="20" x="81" y="327" style="fill:#fff;" font-family="Arial" font-size="16px"> dim_payment</text>
+   <rect width="119" height="20" x="76" y="333" style="fill:#aea;stroke:black;"/>
+   <text width="119" height="20" x="81" y="347" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="119" height="20" x="76" y="353" style="fill:none;stroke:black;"/>
+   <text width="119" height="20" x="81" y="367" style="fill:black;" font-family="Arial" font-size="16px">customerName</text>
+   <rect width="119" height="20" x="76" y="373" style="fill:none;stroke:black;"/>
+   <text width="119" height="20" x="81" y="387" style="fill:black;" font-family="Arial" font-size="16px">orderDate</text>
+   <rect width="119" height="20" x="76" y="393" style="fill:none;stroke:black;"/>
+   <text width="119" height="20" x="81" y="407" style="fill:black;" font-family="Arial" font-size="16px">paymentDate</text>
+   <rect width="119" height="20" x="76" y="413" style="fill:none;stroke:black;"/>
+   <text width="119" height="20" x="81" y="427" style="fill:black;" font-family="Arial" font-size="16px">amount</text>
+   <rect width="119" height="20" x="76" y="433" style="fill:none;stroke:black;"/>
+   <text width="119" height="20" x="81" y="447" style="fill:black;" font-family="Arial" font-size="16px">status</text>
+   <rect width="120" height="20" x="561" y="295" style="fill:#007;stroke:black;"/>
+   <text width="120" height="20" x="566" y="309" style="fill:#fff;" font-family="Arial" font-size="16px"> dim_product</text>
+   <rect width="120" height="20" x="561" y="315" style="fill:#aea;stroke:black;"/>
+   <text width="120" height="20" x="566" y="329" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="120" height="20" x="561" y="335" style="fill:none;stroke:black;"/>
+   <text width="120" height="20" x="566" y="349" style="fill:black;" font-family="Arial" font-size="16px">kategori</text>
+   <rect width="120" height="20" x="561" y="355" style="fill:none;stroke:black;"/>
+   <text width="120" height="20" x="566" y="369" style="fill:black;" font-family="Arial" font-size="16px">productName</text>
+   <rect width="120" height="20" x="561" y="375" style="fill:none;stroke:black;"/>
+   <text width="120" height="20" x="566" y="389" style="fill:black;" font-family="Arial" font-size="16px">productVendor</text>
+   <rect width="120" height="20" x="561" y="395" style="fill:none;stroke:black;"/>
+   <text width="120" height="20" x="566" y="409" style="fill:black;" font-family="Arial" font-size="16px">hargaSatuan(jt)</text>
+   <rect width="92" height="20" x="353" y="133" style="fill:#007;stroke:black;"/>
+   <text width="92" height="20" x="358" y="147" style="fill:#fff;" font-family="Arial" font-size="16px"> fakta</text>
+   <rect width="92" height="20" x="353" y="153" style="fill:#aea;stroke:black;"/>
+   <text width="92" height="20" x="358" y="167" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="92" height="20" x="353" y="173" style="fill:none;stroke:black;"/>
+   <text width="92" height="20" x="358" y="187" style="fill:black;" font-family="Arial" font-size="16px">ammount</text>
+   <rect width="92" height="20" x="353" y="193" style="fill:none;stroke:black;"/>
+   <text width="92" height="20" x="358" y="207" style="fill:black;" font-family="Arial" font-size="16px">sk_office</text>
+   <rect width="92" height="20" x="353" y="213" style="fill:none;stroke:black;"/>
+   <text width="92" height="20" x="358" y="227" style="fill:black;" font-family="Arial" font-size="16px">sk_payment</text>
+   <rect width="92" height="20" x="353" y="233" style="fill:none;stroke:black;"/>
+   <text width="92" height="20" x="358" y="247" style="fill:black;" font-family="Arial" font-size="16px">sk_product</text>
+</svg>
