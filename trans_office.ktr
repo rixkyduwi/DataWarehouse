@@ -603,36 +603,6 @@
       <schema/>
       <table>dim_office</table>
       <key>
-        <name>officeCode</name>
-        <field>kodeKantor</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>addressLine1</name>
-        <field>alamatKantor</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>nama</name>
-        <field>namaPegawai</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>jobTitle</name>
-        <field>pekerjaan</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>jumlah_customer</name>
-        <field>jumlahCustomer</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
         <name>valuename</name>
         <field>id</field>
         <condition>=</condition>
@@ -641,32 +611,37 @@
       <value>
         <name>kodeKantor</name>
         <rename>officeCode</rename>
-        <update>Y</update>
+        <update>N</update>
       </value>
       <value>
         <name>alamatKantor</name>
         <rename>addressLine1</rename>
-        <update>Y</update>
+        <update>N</update>
       </value>
       <value>
         <name>namaPegawai</name>
         <rename>nama</rename>
-        <update>Y</update>
+        <update>N</update>
       </value>
       <value>
         <name>pekerjaan</name>
         <rename>jobTitle</rename>
-        <update>Y</update>
+        <update>N</update>
       </value>
       <value>
         <name>jumlahCustomer</name>
         <rename>jumlah_customer</rename>
-        <update>Y</update>
+        <update>N</update>
       </value>
       <value>
         <name>id</name>
         <rename>valuename</rename>
-        <update>Y</update>
+        <update>N</update>
+      </value>
+      <value>
+        <name>idPegawai</name>
+        <rename>employeeNumber</rename>
+        <update>N</update>
       </value>
     </lookup>
     <attributes/>
@@ -700,7 +675,8 @@ offices.officeCode,
 offices.addressLine1,
 concat(firstName,' ',lastName) nama,
 jobTitle,
-count(customerName) as jumlah_customer
+count(customerName) as jumlah_customer,
+employeeNumber
 FROM offices
 join employees on (
 	employees.officeCode = offices.officeCode
@@ -708,7 +684,7 @@ join employees on (
 join customers on(
 	customers.salesRepEmployeeNumber = employees.employeeNumber
 )
-GROUP by nama</sql>
+group by nama</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
